@@ -1,4 +1,5 @@
-# FormatUrl
+# FormatUrl [![Build Status](https://secure.travis-ci.org/ryanb/url_formatter.png)](https://travis-ci.org/pinchtozoom/format_url)
+
 
 Format and validate a URL attribute in Active Record. This is an example gem created and based on [RailsCasts episode #301](http://railscasts.com/episodes/301-extracting-a-ruby-gem).
 
