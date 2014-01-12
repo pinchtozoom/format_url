@@ -4,7 +4,7 @@ require "format_url/railtie" if defined? Rails
 
 module FormatUrl
   def self.format_url(url)
-    if url.to_s !~ url_regexp && "http://#{url}" =~ url_regexp
+    if url && url.length > 0 && url.to_s !~ url_regexp && "http://#{url}" =~ url_regexp
       "http://#{url}"
     else
       url
